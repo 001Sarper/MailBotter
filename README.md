@@ -26,12 +26,21 @@ The MailBotter is a python script from which you can send many E-Mails to a desi
 
 ## Installation
 
-Go in Terminal and cd to the directory where the 'main.py' is located and run following:
+### 1. [Download](https://www.python.org/downloads/) Python:
 
-```bash
-  python main.py
 ```
-And now the script starts!   
+Make sure you have Python 3.11+ installed and it is added to your path.
+```
+### 2. [Download](https://github.com/001Sarper/MailBotter/archive/refs/heads/main.zip) The Files:
+
+```
+Once you've downloaded the files extract the folder so it's no longer a .zip file.
+```
+### 3. Open The setup.bat File:
+
+```
+You dont need to manually install any modules. Just opening setup.bat will install them for you. If successfull the setup.bat will then open up the gui.
+```
 ## Links and Support
 
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://google.com)
