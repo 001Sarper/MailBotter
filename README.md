@@ -1,5 +1,6 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://i.ibb.co/Drgvcrd/Dein-Abschnittstext.png)
+
 
 
 # MailBotter
@@ -28,3 +29,9 @@ Go in Terminal and cd to the directory where the 'main.py' is located and run fo
   python main.py
 ```
 And now the script starts!   
+## Links and Support
+
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://google.com)
+
+[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)]()
+
