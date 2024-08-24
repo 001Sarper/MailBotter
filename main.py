@@ -1,5 +1,11 @@
 import json
+import threading
+
 import customtkinter
+import smtplib
+from wonderwords import RandomWord
+from CTkMessagebox import CTkMessagebox
+from datetime import datetime
 
 customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
 customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
@@ -43,8 +49,8 @@ class ToplevelWindow(customtkinter.CTkToplevel):
             config = json_file.read()
         with open("config.json", "w") as json_file:
             new_config = json.loads(config)
-            new_config['sender_mail'] = self.textbox1.get("0.0", "end")
-            new_config['sender_password'] = self.textbox2.get("0.0", "end")
+            new_config['sender_mail'] = self.textbox1.get("0.0", "end").strip()
+            new_config['sender_password'] = self.textbox2.get("0.0", "end").strip()
             new_config_json = json.dumps(new_config, indent=2)
             json_file.write(new_config_json)
             print("Config Saved Successfully")
@@ -71,7 +77,7 @@ class App(customtkinter.CTk):
         self.button3.place(relx=0.12, rely=0.06, anchor="nw")
 
         self.textbox = customtkinter.CTkTextbox(master=self)
-        self.textbox.configure(width=800, height=390, state="disabled")
+        self.textbox.configure(width=800, height=390, font=("normal", 16))
         self.textbox.place(relx=0.03, rely=0.15)
 
         self.textbox2 = customtkinter.CTkTextbox(master=self)
@@ -90,14 +96,41 @@ class App(customtkinter.CTk):
         else:
             self.toplevel_window.focus()  # if window exists focus it
 
+    botting = False
+
+    def send_mail(self):
+        while self.botting:
+            try:
+                with open("config.json", "r") as json_file:
+                    r = RandomWord()
+                    config = json_file.read()
+                    config2 = json.loads(config)
+                    sendermail = config2['sender_mail']
+                    senderpassword = config2['sender_password']
+                    receivermail = self.textbox2.get("0.0", "end").strip()
+                    subject = r.word()
+                    message = r.word()
+                    text = f"Subject: {subject}\n\n{message}"
+                    server = smtplib.SMTP("smtp.gmail.com", 587)
+                    server.starttls()
+                    server.login(sendermail, senderpassword)
+                    server.sendmail(from_addr=sendermail, to_addrs=receivermail, msg=text)
+                    c = datetime.now()
+                    current_time = c.strftime('%H:%M:%S')
+                    self.textbox.insert("0.0", f"[MB] Success sending Mail - {current_time}\n")
+            except:
+                c = datetime.now()
+                current_time = c.strftime('%H:%M:%S')
+                self.textbox.insert("0.0", f"[MB] Failed sending Mail - {current_time}\n")
     def start_botting(self):
-        print("Starting")
+        self.textbox2.configure(state="disabled")
+        self.botting = True
+        thread = threading.Thread(target=self.send_mail)
+        thread.start()
+
     def end_botting(self):
-        print("Ending")
-
-
-
-
+        self.botting = False
+        self.textbox2.configure(state="normal")
 
 
 app = App()
