@@ -1,6 +1,6 @@
-
-![Logo](https://i.ibb.co/Drgvcrd/Dein-Abschnittstext.png)
-
+<p align="center">
+  ![Logo](https://i.ibb.co/Drgvcrd/Dein-Abschnittstext.png)
+</p>
 
 
 # MailBotter
