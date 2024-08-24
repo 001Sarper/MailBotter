@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./documentation_images/CustomTkinter_logo_dark.png">
-    <img src="./documentation_images/CustomTkinter_logo_light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./pics/logo.png">
+    <img src="./pics/logo.png">
   </picture>
 </p>
 
