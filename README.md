@@ -1,10 +1,9 @@
-<p align="center">
-  ![GitHub forks](https://img.shields.io/github/forks/001Sarper/MailBotter)
-  ![GitHub Repo stars](https://img.shields.io/github/stars/001Sarper/MailBotter)
-  ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/001Sarper/MailBotter)
-  ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/001Sarper/MailBotter)
-  ![GitHub License](https://img.shields.io/github/license/001Sarper/MailBotter)
-</p>
+
+![GitHub forks](https://img.shields.io/github/forks/001Sarper/MailBotter)
+![GitHub Repo stars](https://img.shields.io/github/stars/001Sarper/MailBotter)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/001Sarper/MailBotter)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/001Sarper/MailBotter)
+![GitHub License](https://img.shields.io/github/license/001Sarper/MailBotter)
 
 
 <p align="center">
