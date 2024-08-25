@@ -47,7 +47,6 @@ if %counter% equ 0 (
 
 REM Prompt user to choose a Python version
 echo.
-echo If you want to use Nuitka, you need to select a version 3.4.X - 3.11.X
 set /p "selected_number=Enter the left number of the desired Python version from the list above: "
 echo.
 
