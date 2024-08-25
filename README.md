@@ -13,7 +13,6 @@ The MailBotter is a python script from which you can send many E-Mails to a desi
 
 ## Features
 
-- Proxy Support
 - Threading
 - Support for own E-Mails
 - GUI (Graphical User Interface)
@@ -41,6 +40,27 @@ Once you've downloaded the files extract the folder so it's no longer a .zip fil
 ```
 You dont need to manually install any modules. Just opening setup.bat will install them for you. If successfull the setup.bat will then open up the gui.
 ```
+
+## How to Use
+
+### 1. Go to your Gmail
+
+```
+Create an App Password for you Gmail Account and copy that password
+```
+
+### 2. Open SMTP Settings 
+
+```
+Paste in your E-Mail and App Password and save the Changes
+```
+
+### 3. Put in Receiver E-Mail
+
+```
+After that click 'Start' and the process will start. To stop it just click stop
+```
+
 ## Links and Support
 
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://google.com)
