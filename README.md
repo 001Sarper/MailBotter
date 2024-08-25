@@ -64,11 +64,6 @@ Paste in your E-Mail and App Password and save the Changes.
 After that click 'Start' and the process will start. To stop it just click stop.
 ```
 
-## License
-
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://opensource.org/licenses/)
-
-
 ## Links and Support
 
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://google.com)
