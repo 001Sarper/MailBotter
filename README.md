@@ -43,7 +43,7 @@ You dont need to manually install any modules. Just opening setup.bat will insta
 
 ## How to Use
 
-### 1. GCreate an [App Password]([https://www.python.org/downloads/](https://myaccount.google.com/apppasswords))
+### 1. Create an [App Password](https://myaccount.google.com/apppasswords)
 
 ```
 Go to your Gmail Account and create an App Password (You can find it in the link above). Then copy the password.
