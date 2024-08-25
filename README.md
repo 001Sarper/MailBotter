@@ -18,11 +18,6 @@ The MailBotter is a python script from which you can send many E-Mails to a desi
 - GUI (Graphical User Interface)
 
 
-## License
-
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://opensource.org/licenses/)
-
-
 ## Installation
 
 ### 1. [Download](https://www.python.org/downloads/) Python:
@@ -60,6 +55,11 @@ Paste in your E-Mail and App Password and save the Changes.
 ```
 After that click 'Start' and the process will start. To stop it just click stop.
 ```
+
+## License
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://opensource.org/licenses/)
+
 
 ## Links and Support
 
