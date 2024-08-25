@@ -46,7 +46,7 @@ You dont need to manually install any modules. Just opening setup.bat will insta
 ### 1. Go to your Gmail
 
 ```
-Create an App Password for you Gmail Account and copy that password
+Create an [App Password](https://myaccount.google.com/apppasswords) for you Gmail Account and copy that password
 ```
 
 ### 2. Open SMTP Settings 
