@@ -43,22 +43,22 @@ You dont need to manually install any modules. Just opening setup.bat will insta
 
 ## How to Use
 
-### 1. Go to your Gmail
+### 1. GCreate an [App Password]([https://www.python.org/downloads/](https://myaccount.google.com/apppasswords))
 
 ```
-Create an [App Password](https://myaccount.google.com/apppasswords) for you Gmail Account and copy that password
+Go to your Gmail Account and create an App Password (You can find it in the link above). Then copy the password.
 ```
 
 ### 2. Open SMTP Settings 
 
 ```
-Paste in your E-Mail and App Password and save the Changes
+Paste in your E-Mail and App Password and save the Changes.
 ```
 
 ### 3. Put in Receiver E-Mail
 
 ```
-After that click 'Start' and the process will start. To stop it just click stop
+After that click 'Start' and the process will start. To stop it just click stop.
 ```
 
 ## Links and Support
