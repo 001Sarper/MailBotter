@@ -67,4 +67,4 @@ After that click 'Start' and the process will start. To stop it just click stop.
 
 ## Links and Support
 
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://google.com)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/cV82pAccvq)
